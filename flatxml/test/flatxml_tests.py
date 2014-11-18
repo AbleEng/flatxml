@@ -4,10 +4,10 @@ import flatxml
 import os
 
 def _get_path(path):
-    return "%s%s" % (os.path.dirname(os.path.realpath(__file__)), path)
+    return "%s/%s" % (os.path.dirname(os.path.realpath(__file__)), path)
 
 def test_parse_file_no_write():
-    xml_file = _get_path("/files/simple.xml")
+    xml_file = _get_path("files/simple.xml")
     result = flatxml.parse_file(xml_file)
 
     assert result['xml_a_[0]'] == 'Candy'

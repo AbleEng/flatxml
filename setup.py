@@ -13,8 +13,8 @@ except ImportError:
 config = {
     'description': 'Transform XML blob, file, or OrderedDict to a flat CSV or dictionary.',
     'author': 'Carlos Eduardo Rivera',
-    'url': 'URL to get it at.',
-    'download_url': 'Where to download it',
+    'url': 'https://github.com/AbleEng/flatxml',
+    'download_url': 'https://github.com/AbleEng/flatxml',
     'author_email': 'carlos@hiable.com',
     'version': VERSION,
     'install_requires': ['xmltodict'],
