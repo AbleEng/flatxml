@@ -5,18 +5,18 @@ Flattens an XML structure by joining nested tags with an underscore.  Returns a 
 
 ### Example output
 
-    """
-        <media>
-            <songs>
-                <pop>Thriller</pop>
-                <metal>Master of Puppets</metal>
-            </songs>
-            <movies>
-                <comedy>Wedding Crashers</comedy>
-                <comedy>Superbad</comedy>
-                <horror>Frozen</horror>
-            </movies>
-        </media>
+	"""
+		<media>
+			<songs>
+				<pop>Thriller</pop>
+				<metal>Master of Puppets</metal>
+			</songs>
+			<movies>
+				<comedy>Wedding Crashers</comedy>
+				<comedy>Superbad</comedy>
+				<horror>Frozen</horror>
+			</movies>
+		</media>
     """
 
 To CSV
@@ -72,7 +72,7 @@ Using an xmltodict.OrderedDict object:
 
     result = flatxml.parse_ordered_dict(slim_ordered_dict)
 
-    print result['important-tag1'] # Cookies
+    print(result['important-tag1']) # Cookies
 
 
 All parsers accept an output file path as the second argument to generate a CSV
