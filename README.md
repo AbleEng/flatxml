@@ -21,9 +21,9 @@ Flattens an XML structure by joining nested tags with an underscore.  Returns a 
 
 To CSV
 
-    | media_songs_pop | media_songs_metal | media_movies_comedy_[0] | media_movies_comedy_[1] | media_movies_horror |
-    | --------------- | ----------------- | ----------------------- | ----------------------- | ------------------- |
-    | Thriller        | Master of Puppets | Wedding Crashers        | Superbad                | Frozen              |
+| media_songs_pop | media_songs_metal | media_movies_comedy_[0] | media_movies_comedy_[1] | media_movies_horror |
+| --------------- | ----------------- | ----------------------- | ----------------------- | ------------------- |
+| Thriller        | Master of Puppets | Wedding Crashers        | Superbad                | Frozen              |
 
 As dictionary
 
