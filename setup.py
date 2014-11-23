@@ -21,7 +21,8 @@ config = {
     'tests_require': ['nose'],
     'packages': ['flatxml', 'flatxml.test'],
     'scripts': [],
-    'name': 'flatxml'
+    'name': 'flatxml',
+    'keywords': 'flat xml csv'
 }
 
 setup(**config)
